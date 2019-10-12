@@ -144,3 +144,113 @@ Attempt to complete homework assignment as described in instructions. If unable 
 If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
 
 **Good Luck!**
+.container {
+    width: 100%;
+    max-width: 60px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 0;
+}
+
+
+/* Header */
+
+#masthead {
+    background: #ffffff;
+    margin: 0 0 30px;
+    z-index: 99;
+    color: #ffffff;
+    overflow: auto;
+    border-bottom: 2px solid #cccccc;
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    width: 250px;
+    height: 90px;
+    background: #4aaaa5;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav {
+    float: left;
+    margin-top: 25px;
+
+}
+
+nav a {
+    color: #999999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+} 
+
+
+ <h1>Gallery</h1>
+       
+        <div class="work">
+                <img src="assets/images/blur-communication-computer-3.jpg" class="auth-image" alt="Technology">
+                <h3>Technology</h3>
+        </div>
+        <div class="work">
+                <img src="assets/images/beach-beautiful-bridge-3.jpg" class="auth-image" alt="Travel">
+                <h3>Travel</h3>
+        </div>
+        <div class="work">
+                <img src="assets/images/boutique-clothes-indoors-3.jpg" class="auth-image" alt="Fashion">
+                <h3>Fashion</h3>
+        </div>
+        <div class="work">
+                <img src="assets/images/dumbbells-equipment-gloves-3.jpg" class="auth-image" alt="Fitness">
+                <h3>Fitness</h3>
+        </div>
+        <div class="work">
+                <img src="assets/images/air-jordan-design-footwear-3.jpg" class="auth-image" alt="Shoes">
+                <h3>Shoes</h3>
+        </div>
+        <div class="work">
+                <img src="assets/images/bread-delicious-egg-3.jpg" class="auth-image" alt="Food">
+                <h3>Food</h3>
+        </div> 
+
+
+
+
+        <form id="contac-form">
+            <ul>
+                <li>
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name"
+                    placeholder="John Smith" required="required"> 
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email"
+                    placeholder="example@gmail.com" required="required"> 
+                </li>                
+                <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"
+                    required="required"></textarea>
+                </li>            
+            </ul>
+            <input type="submit">
+        </form>
